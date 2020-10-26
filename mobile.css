@@ -1,0 +1,101 @@
+/* navbar */
+#navbar {
+   flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#navbar ul li a {
+    margin-left: 0rem;
+    font-size: 1rem;
+}
+
+
+/* showcase */
+
+#showcase h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.center h1 span {
+  font-size: 1.5rem;
+   text-align: center;
+}
+
+/* project */ 
+
+#project .container h1 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem 0rem;
+}
+
+#project .grid {
+    margin-top: 2rem;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+
+#project .grid h5 {
+    font-size: 1rem;
+    padding: 1rem 2rem 0rem;
+}
+
+/* about */
+#about .container h1 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem 0rem;
+
+}
+
+#about .text {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.text h3 {
+    font-size: 1rem;
+    padding: 1rem 2rem 0rem;
+    text-align: center;
+}
+
+#about .container h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.container p {
+   font-size: 0.8rem;
+   text-align: center;
+   padding: 1rem 2rem 0rem;
+}
+
+.text h4 {
+    font-size: 1rem;
+}
+
+/* contact */
+
+#contact .contact-us h1 {
+    font-size: 1rem;
+    padding: 1rem 2rem 0rem;
+}
+
+
+
+
+
